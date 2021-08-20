@@ -1,0 +1,3473 @@
+
+body {
+    font-family: Poppins,sans-serif;
+    letter-spacing: .02em;
+    color: #000;
+    background: #1B0423;
+    overflow-x: hidden;
+  }
+
+  .language-change {
+      float: right;
+      display: block;
+      margin-right: 5%;
+      margin-top: 2.5%;
+  }
+  .language-change a {
+    margin-left: 10px;
+  }
+  .navbar {
+    float: right;
+    margin-right: 10%;
+    margin-top: 25px;
+    background : transparent !important;
+  }
+  .nav-item {
+    margin-right: 30px;
+  }
+  /* .tablinks.active {
+    border-bottom: 2px solid #fff;
+  }   */
+  .nav-link:hover {
+    border-bottom: 2px solid #fff;
+  }  
+  .nav-item a {
+    font-weight: 600;
+    color: #fff !important;
+  }
+  .item {
+    background: #1b0c23;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 15px;
+  }
+  p {
+    color: #fff;
+  }
+  .text-remove {
+      margin-left: -7%;
+  }
+
+
+
+@media only screen and (min-width: 4096px) {
+    
+    
+    .topnav {
+        display: block;
+      }
+      .grid {
+        list-style: none;
+        margin-left: 0;
+    }
+    .topnav {
+        display: block;
+      }
+    .tab-exchange {
+        margin-left: 48%;
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 40px;
+        font-size: 30px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 50px;
+        background-color: #1E2943;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+     }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 50px;
+        margin-top: -2%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+    .site-header {
+        margin-top: 2%;
+    }  
+    .text-remove {
+        margin-left: -7%;
+    }
+    .navbar {
+        float: right;
+        margin-right: 10%;
+        margin-top: -5px !important;
+        background: transparent !important;
+    }
+    .language-change {
+        float: right;
+        display: block;
+        margin-right: 5%;
+        margin-top: 1.5%;
+    }
+    .img-shapecircle {
+        float: right;
+        margin-top: -35%;
+    }
+    .shopify-section{
+        margin-top: 0%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-cat-like {
+        float: right;
+        margin-top: -18%;
+        margin-right: 5%;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .tab {
+        margin-left: 46%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .nav-item a {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #fff !important;
+    }
+    .btn-connect {
+        width: 12%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: -4%;
+        float: right;
+        margin-right: 3%;
+        padding: 10px 30px 10px 30px;
+    }
+    .tablinks {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .tab-active {
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+        font-size: 30px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 50px 60px 50px 60px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 80px 10px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 3%;
+        margin-left: 25%;
+        width: 55%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 40px;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 25px;
+        padding-left: 7%;
+    }
+    .section-from-to {
+        margin-bottom: -2%;
+    }
+    .title-trade {
+        margin-left: -7%;
+        font-size: 25px!important;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 500px;
+        padding: 70px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -50px;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .section-left {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 35%;
+        padding-top: 20px;
+        margin-left: 35%;
+        padding-bottom: 20px;
+        margin-top: -2%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 35%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        margin-left: 5%;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: -2%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 27% !important;
+    
+      }
+/*     
+      .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}  
+
+
+@media only screen and (max-width: 4096px) and (min-width: 2561px) {
+    
+    
+    .topnav {
+        display: block;
+      }
+      .grid {
+        list-style: none;
+        margin-left: 0;
+    }
+    .topnav {
+        display: block;
+      }
+    .tab-exchange {
+        margin-left: 48%;
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 40px;
+        font-size: 30px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 50px;
+        background-color: #1E2943;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+     }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 50px;
+        margin-top: -2%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+    .site-header {
+        margin-top: 2%;
+    }  
+    .text-remove {
+        margin-left: -7%;
+    }
+    .navbar {
+        float: right;
+        margin-right: 10%;
+        margin-top: -5px !important;
+        background: transparent !important;
+    }
+    .language-change {
+        float: right;
+        display: block;
+        margin-right: 5%;
+        margin-top: 1.5%;
+    }
+    .img-shapecircle {
+        float: right;
+        margin-top: -35%;
+    }
+    .shopify-section{
+        margin-top: 0%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-cat-like {
+        float: right;
+        margin-top: -18%;
+        margin-right: 5%;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .tab {
+        margin-left: 46%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .nav-item a {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #fff !important;
+    }
+    .btn-connect {
+        width: 12%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: -4%;
+        float: right;
+        margin-right: 3%;
+        padding: 10px 30px 10px 30px;
+    }
+    .tablinks {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .tab-active {
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+        font-size: 30px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 50px 60px 50px 60px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 80px 10px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 3%;
+        margin-left: 25%;
+        width: 55%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 40px;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 25px;
+        padding-left: 7%;
+    }
+    .section-from-to {
+        margin-bottom: -2%;
+    }
+    .title-trade {
+        margin-left: -7%;
+        font-size: 25px!important;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 500px;
+        padding: 70px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -50px;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .section-left {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 35%;
+        padding-top: 20px;
+        margin-left: 35%;
+        padding-bottom: 20px;
+        margin-top: -2%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 35%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        margin-left: 5%;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: -2%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 27% !important;
+    
+      }
+/*     
+      .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}    
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
+    
+    
+    .topnav {
+        display: block;
+      }
+      .grid {
+        list-style: none;
+        margin-left: 0;
+    }
+    .topnav {
+        display: block;
+      }
+    .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 40px;
+        font-size: 22px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 40px 10px 50px;
+        background-color: #1E2943;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 600;
+     }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+        margin-top: -4%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+    .site-header {
+        margin-top: 2%;
+    }  
+    .text-remove {
+        margin-left: -7%;
+    }
+    .navbar {
+        float: right;
+        margin-right: 10%;
+        margin-top: -5px !important;
+        background: transparent !important;
+    }
+    .language-change {
+        float: right;
+        display: block;
+        margin-right: 5%;
+        margin-top: 1.5%;
+    }
+    .img-shapecircle {
+        float: right;
+        margin-top: -35%;
+    }
+    .shopify-section{
+        margin-top: 0%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-cat-like {
+        float: right;
+        margin-top: -25%;
+        margin-right: 5%;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+        margin-bottom: 25%;
+    }
+    .tab {
+        margin-left: 46%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .nav-item a {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #fff !important;
+    }
+    .btn-connect {
+        width: 15%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 3%;
+        padding: 10px 30px 10px 30px;
+    }
+    .tablinks {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+    .tab-active {
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 50px 60px 50px 60px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 80px 10px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 50px;
+        margin-right: 10%;
+        width: 65%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 30px;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 18px;
+        padding-left: 7%;
+    }
+    .section-from-to {
+        margin-bottom: -5%;
+    }
+    .title-trade {
+        margin-left: -7%;
+        font-size: 18px!important;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 500px;
+        padding: 105px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -50px;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .section-left {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 35%;
+        padding-top: 20px;
+        margin-left: 35%;
+        padding-bottom: 20px;
+        margin-top: -2%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 35%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        margin-left: 5%;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: -2%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 20%;
+    
+      }
+/*     
+      .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}  
+
+
+
+@media only screen and (max-width: 1920px) and  (min-width: 1441px) {
+    
+
+    .grid {
+        list-style: none;
+        margin-left: 0;
+    }
+    .topnav {
+        display: block;
+      }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+        margin-top: -6%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+      }
+    .shopify-section{
+        margin-top: 0%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-cat-like {
+        float: right;
+        margin-top: -25%;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .nav-item a {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #fff !important;
+    }
+    .btn-connect {
+        width: 15%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 2%;
+        padding: 10px 30px 10px 30px;
+    }
+    .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+    .tab-active {
+        /* background: transparent; */
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+    }
+    .section-from-to {
+        margin-top: 30px;
+        margin-left: -12%;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 30px 50px 50px 50px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 80px 10px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 23%;
+        margin-top: -3%;
+        margin-right: 10%;
+        width: 60%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 1.3rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 1.3rem !important;
+        margin-left: -60px;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 400px;
+        padding: 35px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -7%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    @media only screen and (max-width: 1520px){
+        .img-arrow {
+            margin-left: 1.5%;
+            margin-top: 12%;
+        }
+    }
+    .section-left {
+        width: 44%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 44%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 210px;
+        padding-top: 20px;
+        margin-left: 27%;
+        padding-bottom: 20px;
+        margin-top: -2%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 35%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 25%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 10%;
+        position: relative;
+        padding: 5%;
+    }
+
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 20%;
+    
+      }
+
+}  
+
+@media only screen and (max-width: 1440px) and  (min-width: 1281px) {
+    
+
+    .topnav {
+        display: block;
+      }
+      .container-exchange {
+          margin-top: 15%;
+      }
+      .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+      }
+      .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding:  10px 30px 10px 45px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 10px 30px 10px 45px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 18px;
+        margin-top: -6%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+      }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 5.5%;
+    }
+      .navbar {
+        float: right;
+        margin-right: 5%;
+        margin-top: 4%;
+        background: transparent !important;
+    }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.2rem;
+      }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: -30%;
+        width: 15%;
+    }
+    .tab {
+        margin-left: 43%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 12%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 7%;
+        padding:  10px 30px 10px 45px;
+    }
+    
+    .tab-active {
+        /* background: transparent; */
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 30px 40px 50px 40px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        width: 70%;
+        height: 550px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 1.3rem !important;
+        margin-left: -60px;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 320px;
+        padding: 40px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -6%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left:1%;
+        margin-top: 13%;
+    }
+    .section-left {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 210px;
+        padding-top: 15px;
+        margin-left: 27%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 35%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 25%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+    .text-remove {
+        margin-left: -7%;
+        font-size: 1.3rem !important;
+    }
+    .section-from-to {
+        margin-top: -2%;
+        margin-bottom: -5%;
+    }
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        font-size: 1.3rem !important;
+        font-weight: 700;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 0%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 25%;
+    
+      }
+    
+      /* .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}
+
+
+@media only screen and (max-width: 1280px) and  (min-width: 1081px) {
+    
+
+    .topnav {
+        display: block;
+        margin-top: 3% !important;
+        margin-right: -2.5%;
+      }
+      .container-exchange {
+          margin-top: 15%;
+      }
+      .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+      }
+      .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 16px;
+        margin-top: -8%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+      }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 5.5%;
+    }
+      .navbar {
+        float: right;
+        margin-right: 5%;
+        margin-top: 4%;
+        background: transparent !important;
+    }
+    .topnav-mobile a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px !important;
+        font-weight: 900;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: -30%;
+        width: 15%;
+    }
+    .tab {
+        margin-left: 43%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 12%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 7%;
+        padding: 5px 30px 5px 30px;
+    }
+    
+    .tab-active {
+        /* background: transparent; */
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 10px 30px 10px 45px;
+        background: #212230;
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 30px 40px 50px 40px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        width: 70%;
+        height: 550px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 1.3rem !important;
+        margin-left: -60px;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 320px;
+        padding: 40px;
+    }
+    .btn-function1, .btn-function2 {
+        float: right;
+        margin-top: -6%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left:1%;
+        margin-top: 13%;
+    }
+    .section-left {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 45%;
+        height: 300px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 210px;
+        padding-top: 15px;
+        margin-left: 27%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 35%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 25%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+    .text-remove {
+        margin-left: -7%;
+        font-size: 1.3rem !important;
+    }
+    .section-from-to {
+        margin-top: -2%;
+        margin-bottom: -5%;
+    }
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        font-size: 1.3rem !important;
+        font-weight: 700;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 0%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 25%;
+    
+      }
+    
+      /* .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}
+
+
+@media only screen and (max-width: 1080px) and  (min-width: 992px) {
+    
+
+    .topnav {
+        display: block;
+        margin-top: 4% !important;
+        margin-right: -2.5%;
+      }
+      .container-exchange {
+          margin-top: 15%;
+      }
+      .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+      }
+      .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+        font-size: 14px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+    }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 14px;
+        margin-top: -7%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+      }
+      .topnav-mobile a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 14px !important;
+        font-weight: 900;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 5.5%;
+    }
+      .navbar {
+        float: right;
+        margin-right: 5%;
+        margin-top: 4%;
+        background: transparent !important;
+    }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.2rem;
+      }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: -30%;
+        width: 15%;
+    }
+    .tab {
+        margin-left: 43%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 14%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 7%;
+        padding: 5px 30px 5px 30px;
+    }
+    
+    .tab-active {
+        /* background: transparent; */
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 5px 30px 5px 30px;
+        background: #212230;
+        border-radius: 33px;
+        font-size: 14px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 30px 40px 50px 40px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        width: 70%;
+        height: 500px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 18px !important;
+        margin-left: -7%;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 310px;
+        padding: 40px;
+    }
+    .btn-function1 {
+        float: right;
+        margin-top: -8%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -10%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left:1%;
+        margin-top: 13%;
+    }
+    .section-left {
+        width: 44%;
+        height: 250px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 44%;
+        height: 250px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 210px;
+        padding-top: 15px;
+        margin-left: 10%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 25%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .btn-option-select {
+        margin-left: 6%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+    .text-remove {
+        margin-left: -7%;
+        font-size: 18px !important;
+    }
+    .section-from-to {
+        margin-top: -2%;
+        margin-bottom: -5%;
+    }
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 0%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 25%;
+    
+      }
+    
+      /* .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}
+
+
+
+@media only screen and (max-width: 991px) and  (min-width: 767px) {
+    
+
+    .topnav {
+        display: block;
+        margin-top: 4% !important;
+        margin-right: -2.5%;
+      }
+      .container-exchange {
+          margin-top: 15%;
+      }
+      .tab-exchange {
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+      }
+      .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background: linear-gradient(
+    90deg
+    , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+        font-size: 12px;
+     }
+     .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background-color:#1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+     #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 12px;
+        margin-top: -9%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+        font-size: 16px !important;
+      }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.5rem;
+      }
+      .topnav-mobile a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px !important;
+        font-weight: 900;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 5.5%;
+    }
+      .navbar {
+        float: right;
+        margin-right: 5%;
+        margin-top: 4%;
+        background: transparent !important;
+    }
+      .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.2rem;
+      }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: -30%;
+        width: 15%;
+    }
+    .tab {
+        margin-left: 43%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 14%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: -8%;
+        float: right;
+        margin-right: 7%;
+        padding: 5px 30px 5px 30px;
+    }
+    
+    .tab-active {
+        /* background: transparent; */
+        border: 1px solid linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);;
+        border-radius: 15px;
+        padding: 5px 30px 5px 30px;
+        background: #212230;
+        border-radius: 33px;
+        font-size: 12px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 30px 40px 50px 40px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 30px;
+        display: inline-block;
+        margin-left: 20%;
+        width: 70%;
+        height: 430px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: -10px;
+        font-size: 2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 18px !important;
+        margin-left: -7%;
+        font-weight: 700;
+    }
+    #Liquidity {
+        height: 310px;
+        padding: 40px;
+    }
+    .btn-function1 {
+        float: right;
+        margin-top: -8%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -10%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+
+    .img-arrow {
+        margin-left: 3%;
+        margin-top: 19%;
+        width: 8%;
+    }
+    .section-left {
+        width: 43%;
+        height: 190px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 43%;
+        height: 190px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 80%;
+        padding-top: 15px;
+        margin-left: 10%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 30%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        width: 40%;
+    }
+    .btn-option-select {
+        margin-left: 17%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        width: 70%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+    .text-remove {
+        margin-left: -7%;
+        font-size: 18px !important;
+    }
+    .section-from-to {
+        margin-top: -2%;
+        margin-bottom: -5%;
+    }
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 0%;
+        position: relative;
+        padding: 5%;
+    }
+    /* .site-footer__hr {
+        border-bottom: 1px solid #088daa;
+      }
+    
+      .site-footer p,
+      .site-footer__linklist-item a,
+      .site-footer__rte a,
+      .site-footer h4,
+      .site-footer small,
+      .site-footer__copyright-content a,
+      .site-footer__newsletter-error,
+      .site-footer__social-icons .social-icons__link {
+        color: #ffffff;
+      } */
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 25%;
+    
+      }
+    
+      /* .site-footer__rte a {
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      .site-footer__rte a:hover,
+      .site-footer__linklist-item a:hover,
+      .site-footer__copyright-content a:hover {
+        color: #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+      }
+    
+      .site-footer__social-icons .social-icons__link:hover {
+        color: #e6e6e6;
+      } */
+}
+
+
+
+
+@media only screen and (max-width: 768px) and  (min-width: 577px) {
+    
+    
+    .topnav {
+        display: block;
+        margin-top: -2.5% !important;
+        margin-right: -2.5%;
+    }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background: linear-gradient( 
+    90deg
+     , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+        font-size: 10px;
+    }
+    .img-logo {
+        display: none;
+    }
+    .menu-contain {
+        margin-top: -25px;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 13%;
+    }
+    #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 10px !important;
+        margin-top: -10%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+      }
+      .navbar {
+        float: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background: transparent !important;
+    }
+    .topnav-mobile a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px !important;
+        font-weight: 900;
+    }
+    .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 0.8rem;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+    .tab {
+        margin-left: 8%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 25%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 10px;
+        margin-top: -10%;
+        float: right;
+        margin-right: 5%;
+        width: 20%;
+    }
+    .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background-color: #1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .tab-exchange {
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .tab-active {
+        background: transparent;
+        border: 1px solid linear-gradient( 90deg , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 15px;
+        padding: 7px 30px 7px 30px;
+        /* background: #212230; */
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 20px 25px 30px 25px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 25px;
+        display: inline-block;
+        margin-left: 15%;
+        width: 80%;
+        height: 590px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: 0%;
+        font-size: 14px !important;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 0.8rem !important;
+        margin-left: -6%;
+    }
+    #Liquidity {
+        height: 310px;
+        padding: 30px;
+    }
+    .btn-function1 {
+        float: right;
+        margin-top: -8%;
+        width: 32%;
+        margin-right: -8%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -12%;
+        width: 32%;
+        margin-right: -8%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+    .btn-function1 button img, .btn-function2 button img {
+        width: 60%;
+    }
+    .img-arrow {
+        margin-left: 48%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        transform: rotate(90deg);
+    }
+    .section-left {
+        width: 100%;
+        height: 150px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 100%;
+        height: 150px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 215px;
+        padding-top: 10px;
+        margin-left: 30%;
+        padding-bottom: 10px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 40%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 22%;
+    }
+    .btn-option-select {
+        margin-left: 31%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 40%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 0%;
+        position: relative;
+        padding: 5%;
+    }
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 0%;
+    
+      }
+    
+}
+
+@media only screen and (max-width: 576px) and  (min-width: 415px) {
+    
+    
+    .topnav {
+        display: block;
+        margin-top: -2.5% !important;
+        margin-right: -2.5%;
+    }
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background: linear-gradient( 
+    90deg
+     , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 33px;
+        font-size: 10px;
+    }
+    .img-logo {
+        display: none !important;
+    }
+    .menu-contain {
+        margin-top: -25px;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 13%;
+    }
+    #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 10px !important;
+        margin-top: -10%;
+        margin-left: -12px;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+      }
+      .navbar {
+        float: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background: transparent !important;
+    }
+    .topnav-mobile a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px !important;
+        font-weight: 900;
+    }
+    .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 0.8rem;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+    .tab {
+        margin-left: 8%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 25%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 10px;
+        margin-top: -10%;
+        float: right;
+        margin-right: 5%;
+        width: 20%;
+    }
+    .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 30px 5px 30px;
+        background-color: #1E2943;
+        color: #fff;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .tab-exchange {
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .tab-active {
+        background: transparent;
+        border: 1px solid linear-gradient( 90deg , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 15px;
+        padding: 7px 30px 7px 30px;
+        /* background: #212230; */
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 20px 25px 30px 25px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 25px;
+        display: inline-block;
+        margin-left: 15%;
+        width: 80%;
+        height: 600px;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: 0%;
+        font-size: 14px !important;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 0.8rem !important;
+        margin-left: -6%;
+    }
+    #Liquidity {
+        height: 310px;
+        padding: 30px;
+    }
+    .btn-function1 {
+        float: right;
+        margin-top: -8%;
+        width: 32%;
+        margin-right: -8%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -16%;
+        width: 32%;
+        margin-right: -8%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+    }
+    .btn-function1 button img, .btn-function2 button img {
+        width: 60%;
+    }
+    .img-arrow {
+        margin-left: 40%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        transform: rotate(90deg);
+    }
+    .section-left {
+        width: 100%;
+        height: 150px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 100%;
+        height: 150px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 215px;
+        padding-top: 10px;
+        margin-left: 20%;
+        padding-bottom: 10px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 40%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 22%;
+    }
+    .btn-option-select {
+        margin-left: 31%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 40%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        text-align: center;
+        line-height: 70px;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: 10%;
+        position: relative;
+        padding: 5%;
+    }
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 0%;
+    
+      }
+      .site-footer__newsletter {
+        background-color: #fff;
+        border: 2px solid #FFAE70;
+        box-sizing: border-box;
+        box-shadow: 0px 22px 38px rgb(0 0 0 / 25%);
+        border-radius: 32px;
+        padding: 35px;
+        margin-top: -40px;
+        height: 270px;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 414px) and  (min-width: 376px) {
+    
+    
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background: linear-gradient( 
+90deg
+ , #42D784 14.16%, #5BD5CD 82.94%);
+    border-radius: 33px;
+     }
+    .img-logo {
+        display: none;
+    }
+    .menu-contain {
+        margin-top: -35px;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0%;
+    }
+    #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.2rem;
+        margin-top: -1%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+      }
+      .navbar {
+        float: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background: transparent !important;
+    }
+    .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 0.8rem;
+    }
+    .img-circle-left1 {
+        margin-top: -5%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+    .tab {
+        margin-left: 8%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 25%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.8rem;
+        margin-top: 0%;
+        float: right;
+        margin-right: 2%;
+    }
+    .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 25px 5px 25px;
+        background-color: #1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+    .tab-exchange {
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .tab-active {
+        background: transparent;
+        border: 1px solid linear-gradient( 90deg , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 15px;
+        padding: 5px 25px 5px 25px;
+        /* background: #212230; */
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 20px 25px 30px 25px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 25px;
+        display: inline-block;
+        margin-left: 3%;
+        width: 100%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: 8%;
+        font-size: 1.2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 15px !important;
+        margin-left: -6%;
+    }
+    #Liquidity {
+        height: 365px;
+        padding: 30px;
+    }
+    .btn-function1 {
+        float: right;
+        margin-top: -12%;
+        width: 32%;
+        margin-right: -5%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -16%;
+        width: 32%;
+        margin-right: -20%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+        width:45%;
+        margin-left: -30px;
+    }
+    .btn-function1 button img, .btn-function2 button img {
+        width: 60%;
+    }
+    .text-remove {
+        margin-left: -5%;
+        font-size: 13px !important;
+    }
+    .img-arrow {
+        margin-left: 37%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        transform: rotate(90deg);
+    }
+    .section-left {
+        width: 100%;
+        height: 180px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 100%;
+        height: 180px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 180px;
+        padding-top: 15px;
+        margin-left: 18%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .btn-option-select {
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        line-height: 25px;
+        font-size: 14px !important;
+        margin-left: -17px;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 108%;
+        margin-left: -4%;
+        margin-top: 15%;
+        position: relative;
+        padding: 5%;
+    }
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 0%;
+    
+      }
+    
+}
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+    .tablinks-exchange.active {
+        border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background: linear-gradient( 
+90deg
+ , #42D784 14.16%, #5BD5CD 82.94%);
+    border-radius: 33px;
+     }
+    .img-logo {
+        display: none;
+    }
+    .menu-contain {
+        margin-top: -35px;
+    }
+    .grid {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0%;
+    }
+    #gtranslate_wrapper {
+        display: block;
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 1.2rem;
+        margin-top: -1%;
+      }
+      #gtranslate_wrapper option {
+        color:#000;
+      }
+      .navbar {
+        float: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background: transparent !important;
+    }
+    .nav-item a {
+        font-weight: 600;
+        color: #fff !important;
+        font-size: 0.8rem;
+    }
+    .img-circle-left1 {
+        margin-top: -25%;
+        width: 30%;
+    }
+    .shopify-section{
+        margin-top: -5%;
+    }
+    .img-social {
+        margin-left: -40px;
+    }
+    .img-side-shape {
+        margin-top: -65%;
+    }
+    .img-cat-like {
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+    .tab {
+        margin-left: 8%;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    /* .tab button {
+        margin-right:-30px;
+    } */
+    .btn-connect {
+        width: 25%;
+        border: 2px solid #5BD5CD;
+        background: #212230;
+        border-radius: 40px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.8rem;
+        margin-top: 0%;
+        float: right;
+        margin-right: 2%;
+    }
+    .tablinks-exchange {
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 35px;
+        padding: 5px 25px 5px 25px;
+        background-color: #1E2943;
+        color: #fff;
+        font-weight: 600;
+    }
+    .tab-exchange {
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .tab-active {
+        background: transparent;
+        border: 1px solid linear-gradient( 90deg , #42D784 14.16%, #5BD5CD 82.94%);
+        border-radius: 15px;
+        padding: 5px 25px 5px 25px;
+        /* background: #212230; */
+        border-radius: 33px;
+    }
+    #Swap, #Liquidity {
+        display: block;
+        /* border: 1px solid #FFD7A9; */
+        padding: 20px 25px 30px 25px;
+        box-shadow: 10px;
+        background: #182237;
+        /* border: 2px solid #FFAE70; */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 40px 5px #42d784;
+        border-radius: 25px;
+        display: inline-block;
+        margin-left: 3%;
+        width: 95%;
+    }
+    #Swap h3, #Liquidity {
+        font-weight: 600;
+        color: #66C77C;
+        font-size: 2rem;
+    }
+    #Swap p, #Liquidity p {
+        margin-top: 8%;
+        font-size: 1.2rem;
+        padding-left: 7%;
+    }
+    .title-trade {
+        font-size: 15px !important;
+        margin-left: -6%;
+    }
+    #Liquidity {
+        height: 365px;
+        padding: 30px;
+    }
+     .btn-function1 {
+        float: right;
+        margin-top: -13%;
+        width: 32%;
+        margin-right: -15%;
+    }
+    .btn-function2 {
+        float: right;
+        margin-top: -19%;
+        width: 32%;
+        margin-right: -32%;
+    }
+    .btn-function1 button, .btn-function2 button {
+        border: none;
+        background: transparent;
+        width:50%;
+        margin-left: -30px;
+    }
+    .btn-function1 button img, .btn-function2 button img {
+        width: 60%;
+    }
+    .text-remove {
+        margin-left: -5%;
+        font-size: 13px !important;
+    }
+    .img-arrow {
+        margin-left: 37%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        transform: rotate(90deg);
+    }
+    .section-left {
+        width: 100%;
+        height: 180px;
+        background: #212230;
+        border-radius: 5%;
+        float: left;
+    }
+    .section-right {
+        width: 100%;
+        height: 180px;
+        background: #212230;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .amount1, .amount2 {
+        color: #fff;
+        font-weight: 600;
+        background: #0D0F22;
+        border-radius: 15px;
+        width: 180px;
+        padding-top: 15px;
+        margin-left: 18%;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+    .right .btn-option {
+        margin-top: -80px;
+        margin-left: 95%;
+    }
+    .name-coin {
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .btn-option-select {
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .right-bottom {
+        width: 40%;
+        float: right;
+        margin-top: 60px;
+    }
+    .btn-option-bottom {
+        float: right;
+        margin-top: -42px;
+        margin-right: 1%;
+    }
+
+    .text-liquidity {
+        color: #fff;
+        line-height: 25px;
+        font-size: 14px !important;
+        margin-left: -17px;
+    }
+    .btn-unlock-wallet {
+        margin-top: 5%;
+        width: 100%;
+        border: 2px solid #5BD5CD;
+        background: #5BD5CD;
+        border-radius: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .align-items-center {
+        width: 108%;
+        margin-left: -4%;
+        margin-top: 15%;
+        position: relative;
+        padding: 5%;
+    }
+    
+      .site-footer {
+        color: #ffffff;
+        background: linear-gradient(
+            90deg
+            , #42D784 14.16%, #5BD5CD 82.94%);
+        margin-top: 0%;
+    
+
+    }
+}
